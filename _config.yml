@@ -1,4 +1,5 @@
 plugins:
+  - jekyll-remote-theme
   - jekyll-relative-links
 relative_links:
   enabled: true
@@ -6,4 +7,4 @@ relative_links:
 include:
   - index.md
 
-theme: minimal
+remote_theme: pages-themes/minimal@v0.2.0
