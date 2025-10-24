@@ -1,10 +1,24 @@
+title: WLWK LLC
+description: Mobile application development company creating engaging iOS experiences
+url: https://wlwk.org
+email: info@wlwk.org
+
 plugins:
   - jekyll-remote-theme
   - jekyll-relative-links
+  - jekyll-seo-tag
 relative_links:
   enabled: true
   collections: true
 include:
   - index.md
+  - support.md
+  - contact.md
+  - privacy.md
+  - terms.md
 
 remote_theme: pages-themes/primer@v0.6.0
+
+author:
+  name: WLWK LLC
+  email: info@wlwk.org
